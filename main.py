@@ -4,7 +4,7 @@
 from random import choice
 
 def main():
-	print("top ten"*4,"list entry numbers:")
+	print("top ten "*4 + "list entry numbers:")
 	for n1 in reversed(range(10)):
 		n1 = str(n1+1) + ":"
 		for n2 in reversed(range(10)):
